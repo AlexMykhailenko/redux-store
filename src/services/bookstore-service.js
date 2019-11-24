@@ -23,6 +23,8 @@ export default class BookstoreService {
         },
     ];
 
+    // The method 'getBooks' returns a promise with data
+    // or an artificial error the probability of which is 25%
     getBooks() {
         return new Promise((resolve, reject) => {
             setTimeout(() => {
